@@ -68,7 +68,7 @@ for n_run = 1:max_nRuns
         
         results.MDP_times_with_wait(n_run, nLocations) = MDP_creation_time_with_wait;
         
-        save("increasing_locations_results.mat", "results");
+        save("increasing_locations_results_second_iteration.mat", "results");
         
     end
 end
